@@ -22,11 +22,13 @@ AI coding skills that enhance developer productivity on Solana.
 
 ### General
 
+- [clawd-agent-launchpad](https://musebook.trade/skills/clawd-agent-launchpad) - AI coding skill for building, launching, staking, and managing agents on the Clawd and Cheshire Terminal launchpad, covering agent templates, the agent builder and hub, Metaplex agent minting, and lifecycle management.
 - [clawpump-skill](https://www.clawpump.tech/skill.md) - AI agent skill for ClawPump covering gasless and self-funded token launches on pump.fun, dynamic dev buys with instant graduation, 65% trading fee revenue share, and social amplification via Moltbook.
 - [helius-phantom-skill](https://github.com/helius-labs/core-ai/tree/main/helius-skills/helius-phantom) - Official Helius + Phantom Connect skill for building frontend Solana apps with React, React Native, and browser SDKs, transaction signing via Helius Sender, token gating, NFT minting, crypto payments, and real-time updates.
 - [magicblock-dev-skill](https://github.com/magicblock-labs/magicblock-dev-skill) - End-to-end MagicBlock development skill for Claude Code. [MagicBlock](https://magicblock.xyz) is a Solana network extension designed to help programs with latency/privacy needs, along with other native tools like VRFs, Cranks, Session Keys and more.
 - [metaplex-skill](https://github.com/metaplex-foundation/skill) - Official Metaplex development skill covering Core NFTs, Token Metadata, Bubblegum, Candy Machine, Genesis token launches, the mplx CLI, and Umi/Kit SDKs.
 - [para-skill](https://docs.getpara.com/skill.md) - AI coding skill for Para Wallet Infrastructure covering Solana embedded wallets, transaction signing, program interaction, REST API and SDK setup, and more.
+- [solana-agent-registration](https://musebook.trade/skills/solana-agent-registration) - AI coding skill for registering an AI agent on-chain via the Metaplex Agent Registry: mint an MPL Core asset, bind an Agent Identity record, and verify it in one flow.
 - [solana-anchor-claude-skill](https://github.com/quiknode-labs/solana-anchor-claude-skill) - end to end Solana development for Anchor and Solana Kit. Focusing on modern, minimal, readable code for long-term maintenance. Testing is with native test runners or LiteSVM. See [I made a Solana exchange using this Claude skill!](https://www.youtube.com/watch?v=QcinP8mGWxg) for more details.
 - [solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill) - End-to-end Solana development skill for Claude Code. Covers wallet connections, Anchor/Pinocchio programs, client generation, testing with LiteSVM/Mollusk, and security best practices.
 - [solana-game-skill](https://github.com/solanabr/solana-game-skill) - Claude Code skills for developing games on Solana. Covers C#, React Native, Magicblock's Solana Unity SDK, Solana Mobile and Playsolana Unity SDK. Extends [solana-dev-skill](https://github.com/solana-foundation/solana-dev-skill).
@@ -79,6 +81,7 @@ AI coding skills that enhance developer productivity on Solana.
 - [switchboard-skill](https://github.com/sendaifun/skills/tree/main/skills/switchboard) - AI coding skill for Switchboard Oracle covering permissionless price feeds, on-demand data, VRF randomness, and Surge streaming on Solana.
 - [bitget-wallet-skill](https://github.com/bitget-wallet-ai-lab/bitget-wallet-skill) - AI agent skill for Bitget Wallet covering multi-chain token swaps, cross-chain bridges, gasless transactions, security audits, and real-time market data across 7 chains including Solana.
 - [orquestra](https://github.com/berkayoztunc/orquestra) - Open-source platform that instantly converts Solana Anchor and Codama IDLs into hosted REST APIs, AI-ready documentation, and public MCP server (`https://api.orquestra.dev/mcp`) for AI agents and developers.
+- [x402-facilitator](https://musebook.trade/skills/x402-facilitator) - AI coding skill for running a non-custodial x402 facilitator on Solana and EVM with the x402m meta protocol: single-signature batch settlement, facilitator discovery, and receipts.
 
 ### Mobile & Seeker
 
@@ -89,6 +92,7 @@ AI coding skills that enhance developer productivity on Solana.
 
 AI agents and autonomous systems built for Solana.
 
+- [Musebook](https://musebook.trade/agents) - On-chain directory of Solana AI agents where agents register in one shot and every profile shows live wallet, trade, and PDA asset data, mirrored at clawdcompute.us/agents.
 - [Solana Compass CLI](https://github.com/solanaguide/solana-cli) - Ready-to-use Solana CLI allowing AI agents to use natural language commands to trade tokens, stake, lend, use prediction markets, make x402 payments, and manage wallets + portfolios without writing code.
 - [Chronoeffector AI Arena](https://docs.chronoeffector.ai) - Chronoeffector AI is a decentralized platform building a fully autonomous AI agent trading arena on Solana, enabling users to deploy AI agents for trading cryptocurrencies, stocks, commodities, and prediction markets.
 - [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops.
@@ -110,6 +114,7 @@ AI agents and autonomous systems built for Solana.
 
 AI-enhanced development tools for the Solana ecosystem.
 
+- [Clawd Compute MCP Portal](https://clawdcompute.us/mcp) - MCP portal fronting 256 x402 pay-per-call tools (PumpAI market data, tokenized equities, Backpack stocks and RFQ quotes, and Massive US stock data), 238 of them payable at a flat $0.01 USDC on Solana or Base.
 - [Pyth Pro MCP Server](https://github.com/pyth-network/pyth-crosschain/tree/main/apps/mcp) - MCP server for Pyth real-time and historical market data with price feeds, OHLC candlesticks, and historical snapshots across crypto, equities, FX, and commodities. Includes 9 companion [AI coding skills](https://github.com/pyth-network/pyth-crosschain/tree/main/apps/mcp/skills) for Claude Code.
 - [Solana Developer MCP](https://mcp.solana.com/) - Maintained by Solana. Solana MCP (Model Context Protocol) is a specialized AI assistant that integrates directly into AI-supported IDEs like Cursor and Windsurf (works with Claude CLI as well). Automatically queries the MCP server to provide accurate, up-to-date information from Solana and Anchor Framework documentation.
 - [DFlow MCP Server](https://pond.dflow.net/build/mcp) - Unified spot + prediction market trading API with smart routing and low-failure execution; MCP connects AI tools to DFlow docs, APIs, and code recipes for accurate integrations on Solana.
@@ -142,6 +147,7 @@ AI-enhanced development tools for the Solana ecosystem.
 - [Envio Docs MCP](https://docs.envio.dev/docs/HyperIndex/mcp-server) - Remote MCP server that lets AI coding assistants search and read Envio's HyperIndex docs, including indexing Solana programs.
 
 - [trade-router-mcp](https://www.npmjs.com/package/@traderouter/trade-router-mcp) - Non-custodial Solana swap & limit-order MCP server for AI agents. 21 tools: swap, limit, trailing, TWAP, DCA, and combo orders (limit+trailing+TWAP) across Raydium, PumpSwap, Orca, and Meteora. Jito MEV-protected, Ed25519 server-message verification, `TRADEROUTER_DRY_RUN` for safe testing. Install: `npx -y @traderouter/trade-router-mcp`.
+- [x402.wtf](https://x402.wtf) - Non-custodial omni-chain x402 facilitator hub for verify and settle on Solana and EVM networks, with a machine-readable discovery document, a supported-kinds registry, and x402m batch settlement and receipts.
 
 ## Learning Resources
 
